@@ -213,28 +213,28 @@
 
     <form class="row mx-5 px-5" style="background-color: #0DCAF0;">
         <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">First name</label>
-            <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your first name...">
+            <label for="firstName" class="form-label"> First name </label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name...">
         </div>
 
         <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="inputPassword" placeholder="Enter your last name...">
+            <label for="lastName" class="form-label"> Last name </label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name...">
         </div>
 
         <div class="col-md-6">
-            <label for="inputAddress" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="inputAddress" placeholder="name@example.com">
+            <label for="email" class="form-label"> Email address </label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
         </div>
 
         <div class="col-md-6">
-            <label for="inputAddress2" class="form-label">Hours requested</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Hours requested...">
+            <label for="hours" class="form-label"> Hours requested </label>
+            <input type="text" class="form-control" id="hours" placeholder="Hours requested...">
         </div>
 
         <div class="col-md-6">
-            <label for="inputState" class="form-label"> Type of work</label>
-            <select id="inputState" class="form-select">
+            <label for="typeWork" class="form-label"> Type of work</label>
+            <select id="typeWork" class="form-select">
                 <option selected="">Select the type of work</option>
                 <option>Frontend Development</option>
                 <option>Fullstack Development</option>
@@ -243,20 +243,26 @@
         </div>
 
         <div class="col-md-6">
-            <label for="inputCity" class="form-label">Discount Code</label>
-            <input type="text" class="form-control" id="inputCity" placeholder="XRL8">
+            <label for="saldCode" class="form-label">Discount Code</label>
+            <input type="text" class="form-control" id="saldCode" placeholder="XRL8">
         </div>
 
         <div class="col-md">
             <label class="form-label">Message</label>
-            <textarea class="form-control" id="inputMessage" placeholder="Specify your work commmission"
+            <textarea class="form-control" id="message" placeholder="Specify your work commmission"
                 rows="5"></textarea>
         </div>
 
 
         <div class="col-12 text-center mt-4 col-md-12">
-            <button type="submit" class="btn btn-warning">Send</button>
+            <button type="submit" class="btn btn-warning" id ="button"> Send</button>
         </div>
+
+
+        <div class="py-2">
+            <h2 id="FinalPrice"></h2>
+        </div>
+
     </form>
 
 
